@@ -15,9 +15,13 @@ if __name__ == '__main__':
     size = 512, 512, 3
     original_img = np.zeros(size, dtype=np.uint8)
     original_img2 = np.zeros(size, dtype=np.uint8)
-        
+    
+    
+    
+	
     waveLength = 512 / 2
 
+    print("start")
     for w in range(int(waveLength)):
         pixel = int(255.0 / waveLength * w)
         pixel2 = int(255.0 / (waveLength * waveLength) * w * w)
