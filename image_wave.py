@@ -45,5 +45,7 @@ if __name__ == '__main__':
             
     cv2.imwrite("test.bmp", original_img)
     cv2.imwrite("test2.bmp", original_img2)
+    
+    print("Fin")
 
     cv2.waitKey(0)
